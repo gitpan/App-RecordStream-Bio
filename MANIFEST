@@ -1,0 +1,16 @@
+Changes
+LICENSE
+MANIFEST
+META.json
+META.yml
+Makefile.PL
+README
+cpanfile
+devel/generate-pod
+dist.ini
+doc/recs-fromfasta.pod
+lib/App/RecordStream/Bio.pm
+lib/App/RecordStream/Operation/fromfasta.pm
+script/recs-fromfasta
+t/fromfasta.t
+t/release-pod-syntax.t
