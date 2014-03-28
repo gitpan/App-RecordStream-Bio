@@ -26,7 +26,7 @@ requires:
   App::RecordStream::Operation: v4.0.0
   perl: 5.008005
 resources:
-  bugtracker: https://github.com/tsibley/App-RecordStream-Bio/issues
-  homepage: https://github.com/tsibley/App-RecordStream-Bio
-  repository: https://github.com/tsibley/App-RecordStream-Bio.git
-version: 0.03
+  bugtracker: https://github.com/MullinsLab/App-RecordStream-Bio/issues
+  homepage: https://github.com/MullinsLab/App-RecordStream-Bio
+  repository: https://github.com/MullinsLab/App-RecordStream-Bio.git
+version: 0.04
