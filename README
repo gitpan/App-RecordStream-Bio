@@ -8,6 +8,11 @@ SYNOPSIS
         recs-fromfasta --oneline < seqs.fasta           \
             | recs-grep '{{id}} =~ /\b(POL|GAG)\b/i'    \
             | recs-tocsv -k id,sequence
+    
+        # Filter gaps from sequences
+        recs-fromfasta seqs.fasta \
+            | recs-xform '{{seq}} =~ s/-//g' \
+            | recs-tofasta > seqs-nogaps.fasta
 
 DESCRIPTION
     App::RecordStream::Bio is a collection of record-handling tools related
@@ -19,6 +24,8 @@ DESCRIPTION
 
 TOOLS
     recs-fromfasta
+
+    recs-tofasta
 
 AUTHOR
     Thomas Sibley <trsibley@uw.edu>
