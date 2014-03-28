@@ -9,8 +9,11 @@ cpanfile
 devel/generate-pod
 dist.ini
 doc/recs-fromfasta.pod
+doc/recs-tofasta.pod
 lib/App/RecordStream/Bio.pm
 lib/App/RecordStream/Operation/fromfasta.pm
+lib/App/RecordStream/Operation/tofasta.pm
 script/recs-fromfasta
+script/recs-tofasta
 t/fromfasta.t
 t/release-pod-syntax.t
