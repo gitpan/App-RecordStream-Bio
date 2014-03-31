@@ -38,7 +38,7 @@
       "runtime" : {
          "requires" : {
             "App::RecordStream::Operation" : "v4.0.0",
-            "perl" : "5.008005"
+            "perl" : "5.010"
          }
       },
       "test" : {
@@ -60,6 +60,6 @@
          "web" : "https://github.com/MullinsLab/App-RecordStream-Bio"
       }
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
 

@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use 5.008005;
+use 5.010;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -29,7 +29,7 @@ my %WriteMakefileArgs = (
     "App::RecordStream::Test::Tester" => "v4.0.0",
     "Test::More" => "0.88"
   },
-  "VERSION" => "0.04",
+  "VERSION" => "0.05",
   "test" => {
     "TESTS" => "t/*.t"
   }
