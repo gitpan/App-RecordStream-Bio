@@ -29,4 +29,4 @@ resources:
   bugtracker: https://github.com/MullinsLab/App-RecordStream-Bio/issues
   homepage: https://github.com/MullinsLab/App-RecordStream-Bio
   repository: https://github.com/MullinsLab/App-RecordStream-Bio.git
-version: 0.06
+version: 0.07
