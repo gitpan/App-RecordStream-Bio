@@ -17,3 +17,4 @@ script/recs-fromfasta
 script/recs-tofasta
 t/fromfasta.t
 t/release-pod-syntax.t
+t/tofasta.t
