@@ -3,16 +3,19 @@ abstract: 'A collection of record-handling tools related to biology'
 author:
   - 'Thomas Sibley <trsibley@uw.edu>'
 build_requires:
+  App::RecordStream::Test::OperationHelper: v4.0.0
   App::RecordStream::Test::Tester: v4.0.0
-  Test::More: '0.88'
+  File::Temp: 0
+  JSON: 0
+  Test::More: 0.88
 configure_requires:
-  ExtUtils::MakeMaker: '6.30'
+  ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
 generated_by: 'Dist::Milla version v1.0.5, Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.140640'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: '1.4'
+  version: 1.4
 name: App-RecordStream-Bio
 no_index:
   directory:
@@ -24,11 +27,11 @@ no_index:
     - examples
 requires:
   App::RecordStream::Operation: v4.0.0
-  Bio::Seq: '0'
-  Bio::SeqIO: '0'
-  perl: '5.010'
+  Bio::Seq: 0
+  Bio::SeqIO: 0
+  perl: 5.010
 resources:
   bugtracker: https://github.com/MullinsLab/App-RecordStream-Bio/issues
   homepage: https://github.com/MullinsLab/App-RecordStream-Bio
   repository: https://github.com/MullinsLab/App-RecordStream-Bio.git
-version: '0.10'
+version: 0.11
