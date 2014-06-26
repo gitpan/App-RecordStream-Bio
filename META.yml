@@ -34,4 +34,6 @@ resources:
   bugtracker: https://github.com/MullinsLab/App-RecordStream-Bio/issues
   homepage: https://github.com/MullinsLab/App-RecordStream-Bio
   repository: https://github.com/MullinsLab/App-RecordStream-Bio.git
-version: 0.12
+version: 0.13
+x_contributors:
+  - 'Thomas Sibley <trsibley@uw.edu>'
